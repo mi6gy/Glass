@@ -11,12 +11,20 @@ h1{
     opacity: 0.08;
 }
 
+h2, p{
+    color: #686ec5;
+    font-weight: 500;
+    opacity: 0.8;
+
+}
+
 h3{
     color: #426695;
     font-weight: 600;
 }
 
 main {
+    font-family: "Poppins", sans-serif;
     min-height: 100vh;
     background: linear-gradient(to right top,#65dfc9, #6cdbeb);
     display: flex;
@@ -110,4 +118,26 @@ linkh2{
 
 .pro h2{
     width: 40%;
+    color: white;
+    font-weight: 600;
+}
+/* games section */
+
+.status{
+    margin-bottom: 3rem;
+}
+
+status input{
+    background: linear-gradient(
+    to right bottom, 
+    rgba(255,255,255,0.7),
+    rgba(255,255,255,0.3));
+    border: none;
+    width: 50%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+games{
+    
 }
