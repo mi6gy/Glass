@@ -138,6 +138,21 @@ status input{
     border-radius: 2rem;
 }
 
-games{
-    
+.games{
+margin: 5rem;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+.card{
+    display: flex;
+    background: linear-gradient(to left top,
+     rgba(255,255,255,0.2),
+    rgba(255,255,225,0.9));
+    border-radius: 1rem;
+    margin: 2rem 0rem;
+    padding: 2rem;
+    box-shadow: 6px 6px 20px rgba(122,122,122,0.8);
+
 }
